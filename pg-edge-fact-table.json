@@ -1,0 +1,472 @@
+[
+		{
+			"description": "description organization",
+			"name": "organization",
+			"type": "string"
+		},
+		{
+			"description": "description environment",
+			"name": "environment",
+			"type": "string"
+		},
+		{
+			"description": "description apiproxy",
+			"name": "apiproxy",
+			"type": "string"
+		},
+		{
+			"description": "description request_uri",
+			"name": "request_uri",
+			"type": "string"
+		},
+		{
+			"description": "description proxy",
+			"name": "proxy",
+			"type": "string"
+		},
+		{
+			"description": "description proxy_basepath",
+			"name": "proxy_basepath",
+			"type": "string"
+		},
+		{
+			"description": "description request_verb",
+			"name": "request_verb",
+			"type": "string"
+		},
+		{
+			"description": "description request_size",
+			"name": "request_size",
+			"type": "integer"
+		},
+		{
+			"description": "description response_status_code",
+			"name": "response_status_code",
+			"type": "integer"
+		},
+		{
+			"description": "description is_error",
+			"name": "is_error",
+			"type": "boolean"
+		},
+		{
+			"description": "description client_received_start_timestamp",
+			"name": "client_received_start_timestamp",
+			"type": "timestamp"
+		},
+		{
+			"description": "description client_received_end_timestamp",
+			"name": "client_received_end_timestamp",
+			"type": "timestamp"
+		},
+		{
+			"description": "description target_sent_start_timestamp",
+			"name": "target_sent_start_timestamp",
+			"type": "timestamp"
+		},
+		{
+			"description": "description target_sent_end_timestamp",
+			"name": "target_sent_end_timestamp",
+			"type": "timestamp"
+		},
+		{
+			"description": "description target_received_start_timestamp",
+			"name": "target_received_start_timestamp",
+			"type": "timestamp"
+		},
+		{
+			"description": "description target_received_end_timestamp",
+			"name": "target_received_end_timestamp",
+			"type": "timestamp"
+		},
+		{
+			"description": "description client_sent_start_timestamp",
+			"name": "client_sent_start_timestamp",
+			"type": "timestamp"
+		},
+		{
+			"description": "description client_sent_end_timestamp",
+			"name": "client_sent_end_timestamp",
+			"type": "timestamp"
+		},
+		{
+			"description": "description client_ip",
+			"name": "client_ip",
+			"type": "string"
+		},
+		{
+			"description": "description access_token",
+			"name": "access_token",
+			"type": "string"
+		},
+		{
+			"description": "description client_id",
+			"name": "client_id",
+			"type": "string"
+		},
+		{
+			"description": "description developer",
+			"name": "developer",
+			"type": "string"
+		},
+		{
+			"description": "description developer_app",
+			"name": "developer_app",
+			"type": "string"
+		},
+		{
+			"description": "description api_product",
+			"name": "api_product",
+			"type": "string"
+		},
+		{
+			"description": "description flow_resource",
+			"name": "flow_resource",
+			"type": "string"
+		},
+		{
+			"description": "description target",
+			"name": "target",
+			"type": "string"
+		},
+		{
+			"description": "description target_url",
+			"name": "target_url",
+			"type": "string"
+		},
+		{
+			"description": "description target_host",
+			"name": "target_host",
+			"type": "string"
+		},
+		{
+			"description": "description apiproxy_revision",
+			"name": "apiproxy_revision",
+			"type": "string"
+		},
+		{
+			"description": "description proxy_pathsuffix",
+			"name": "proxy_pathsuffix",
+			"type": "string"
+		},
+		{
+			"description": "description proxy_client_ip",
+			"name": "proxy_client_ip",
+			"type": "string"
+		},
+		{
+			"description": "description target_basepath",
+			"name": "target_basepath",
+			"type": "string"
+		},
+		{
+			"description": "description client_host",
+			"name": "client_host",
+			"type": "string"
+		},
+		{
+			"description": "description target_ip",
+			"name": "target_ip",
+			"type": "string"
+		},
+		{
+			"description": "description request_path",
+			"name": "request_path",
+			"type": "string"
+		},
+		{
+			"description": "description response_size",
+			"name": "response_size",
+			"type": "integer"
+		},
+		{
+			"description": "description developer_email",
+			"name": "developer_email",
+			"type": "string"
+		},
+		{
+			"description": "description virtual_host",
+			"name": "virtual_host",
+			"type": "string"
+		},
+		{
+			"description": "description gateway_flow_id",
+			"name": "gateway_flow_id",
+			"type": "string"
+		},
+		{
+			"description": "description sla",
+			"name": "sla",
+			"type": "boolean"
+		},
+		{
+			"description": "description message_count",
+			"name": "message_count",
+			"type": "integer"
+		},
+		{
+			"description": "description total_response_time",
+			"name": "total_response_time",
+			"type": "numeric"
+		},
+		{
+			"description": "description request_processing_latency",
+			"name": "request_processing_latency",
+			"type": "numeric"
+		},
+		{
+			"description": "description response_processing_latency",
+			"name": "response_processing_latency",
+			"type": "numeric"
+		},
+		{
+			"description": "description target_response_time",
+			"name": "target_response_time",
+			"type": "numeric"
+		},
+		{
+			"description": "description cache_hit",
+			"name": "cache_hit",
+			"type": "integer"
+		},
+		{
+			"description": "description x_forwarded_for_ip",
+			"name": "x_forwarded_for_ip",
+			"type": "string"
+		},
+		{
+			"description": "description useragent",
+			"name": "useragent",
+			"type": "string"
+		},
+		{
+			"description": "description target_response_code",
+			"name": "target_response_code",
+			"type": "integer"
+		},
+		{
+			"description": "description groupid",
+			"name": "groupid",
+			"type": "integer"
+		},
+		{
+			"description": "description target_error",
+			"name": "target_error",
+			"type": "integer"
+		},
+		{
+			"description": "description policy_error",
+			"name": "policy_error",
+			"type": "integer"
+		},
+		{
+			"description": "description ax_ua_device_category",
+			"name": "ax_ua_device_category",
+			"type": "string"
+		},
+		{
+			"description": "description ax_ua_agent_type",
+			"name": "ax_ua_agent_type",
+			"type": "string"
+		},
+		{
+			"description": "description ax_ua_agent_family",
+			"name": "ax_ua_agent_family",
+			"type": "string"
+		},
+		{
+			"description": "description ax_ua_agent_version",
+			"name": "ax_ua_agent_version",
+			"type": "string"
+		},
+		{
+			"description": "description ax_ua_os_family",
+			"name": "ax_ua_os_family",
+			"type": "string"
+		},
+		{
+			"description": "description ax_ua_os_version",
+			"name": "ax_ua_os_version",
+			"type": "string"
+		},
+		{
+			"description": "description ax_geo_city",
+			"name": "ax_geo_city",
+			"type": "string"
+		},
+		{
+			"description": "description ax_geo_country",
+			"name": "ax_geo_country",
+			"type": "string"
+		},
+		{
+			"description": "description ax_geo_continent",
+			"name": "ax_geo_continent",
+			"type": "string"
+		},
+		{
+			"description": "description ax_geo_timezone",
+			"name": "ax_geo_timezone",
+			"type": "string"
+		},
+		{
+			"description": "description ax_session_id",
+			"name": "ax_session_id",
+			"type": "string"
+		},
+		{
+			"description": "description ax_market_id",
+			"name": "ax_market_id",
+			"type": "string"
+		},
+		{
+			"description": "description ax_partner_id",
+			"name": "ax_partner_id",
+			"type": "string"
+		},
+		{
+			"description": "description ax_channel_id",
+			"name": "ax_channel_id",
+			"type": "string"
+		},
+		{
+			"description": "description ax_business_unit_id",
+			"name": "ax_business_unit_id",
+			"type": "string"
+		},
+		{
+			"description": "description ax_traffic_referral_id",
+			"name": "ax_traffic_referral_id",
+			"type": "string"
+		},
+		{
+			"description": "description ax_device_id",
+			"name": "ax_device_id",
+			"type": "string"
+		},
+		{
+			"description": "description ax_client_org_name",
+			"name": "ax_client_org_name",
+			"type": "string"
+		},
+		{
+			"description": "description ax_client_app_name",
+			"name": "ax_client_app_name",
+			"type": "string"
+		},
+		{
+			"description": "description ax_client_request_id",
+			"name": "ax_client_request_id",
+			"type": "string"
+		},
+		{
+			"description": "description ax_created_time",
+			"name": "ax_created_time",
+			"type": "timestamp"
+		},
+		{
+			"description": "description ax_hour_of_day",
+			"name": "ax_hour_of_day",
+			"type": "string"
+		},
+		{
+			"description": "description ax_day_of_week",
+			"name": "ax_day_of_week",
+			"type": "string"
+		},
+		{
+			"description": "description ax_week_of_month",
+			"name": "ax_week_of_month",
+			"type": "string"
+		},
+		{
+			"description": "description ax_month_of_year",
+			"name": "ax_month_of_year",
+			"type": "string"
+		},
+		{
+			"description": "description gateway_source",
+			"name": "gateway_source",
+			"type": "string"
+		},
+		{
+			"description": "description ax_cache_executed",
+			"name": "ax_cache_executed",
+			"type": "integer"
+		},
+		{
+			"description": "description ax_cache_name",
+			"name": "ax_cache_name",
+			"type": "string"
+		},
+		{
+			"description": "description ax_cache_key",
+			"name": "ax_cache_key",
+			"type": "string"
+		},
+		{
+			"description": "description ax_cache_source",
+			"name": "ax_cache_source",
+			"type": "string"
+		},
+		{
+			"description": "description ax_cache_l1_count",
+			"name": "ax_cache_l1_count",
+			"type": "integer"
+		},
+		{
+			"description": "description ax_edge_execution_fault_code",
+			"name": "ax_edge_execution_fault_code",
+			"type": "string"
+		},
+		{
+			"description": "description ax_edge_is_apigee_fault",
+			"name": "ax_edge_is_apigee_fault",
+			"type": "integer"
+		},
+		{
+			"description": "description ax_dn_region",
+			"name": "ax_dn_region",
+			"type": "string"
+		},
+		{
+			"description": "description ax_execution_fault_policy_name",
+			"name": "ax_execution_fault_policy_name",
+			"type": "string"
+		},
+		{
+			"description": "description ax_execution_fault_flow_name",
+			"name": "ax_execution_fault_flow_name",
+			"type": "string"
+		},
+		{
+			"description": "description ax_execution_fault_flow_state",
+			"name": "ax_execution_fault_flow_state",
+			"type": "string"
+		},
+		{
+			"description": "description ax_mp_host",
+			"name": "ax_mp_host",
+			"type": "string"
+		},
+		{
+			"description": "description ax_router_host",
+			"name": "ax_router_host",
+			"type": "string"
+		},
+		{
+			"description": "description ax_geo_region",
+			"name": "ax_geo_region",
+			"type": "string"
+		},
+		{
+			"description": "description ax_isp",
+			"name": "ax_isp",
+			"type": "string"
+		},
+		{
+			"description": "description ax_true_client_ip",
+			"name": "ax_true_client_ip",
+			"type": "string"
+		}
+]

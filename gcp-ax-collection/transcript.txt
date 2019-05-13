@@ -1,0 +1,18 @@
+
+
+
+#module
+https://www.npmjs.com/package/@google-cloud/storage
+#doco: 
+https://cloud.google.com/nodejs/docs/reference/storage/1.6.x/File#getSignedUrl
+
+
+
+
+
+npm init
+
+npm install --save @google-cloud/storage
+
+
+npm install --save express

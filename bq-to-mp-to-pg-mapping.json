@@ -1,0 +1,12 @@
+[
+    {
+        "apiproxy": {
+            "bg": null
+        }
+    },
+    {
+        "x-apigee.edge.dn.region": {
+            "bg": "ax_dn_region"
+        }
+    }
+]

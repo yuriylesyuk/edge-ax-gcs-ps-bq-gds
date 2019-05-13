@@ -1,0 +1,442 @@
+[
+    {
+        "access_token" : {
+            "mp": "access_token",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "api_product" : {
+            "mp": "api_product",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "apiproxy" : {
+            "mp": "apiproxy",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "apiproxy_revision" : {
+            "mp": "apiproxy_revision",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_cache_executed" : {
+            "mp": "responsecache_executed",
+            "mp_type": "integer"
+        }
+    }
+    ,
+    {
+        "ax_cache_key" : {
+            "mp": "responsecache_key",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_cache_l1_count" : {
+            "mp": "responsecache_l1_count",
+            "mp_type": "bigint"
+        }
+    }
+    ,
+    {
+        "ax_cache_name" : {
+            "mp": "responsecache_name",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_cache_source" : {
+            "mp": "responsecache_source",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_client_app_name" : {
+            "mp": "apigee_sdk_client_appname",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_client_org_name" : {
+            "mp": "apigee_sdk_client_orgname",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_client_request_id" : {
+            "mp": "apigee_sdk_client_requestid",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_device_id" : {
+            "mp": "apigee_sdk_client_deviceid",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_dn_region" : {
+            "mp": "x-apigee.edge.dn.region",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_edge_execution_fault_code" : {
+            "mp": "apigee.edge.execution.fault_code",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_edge_is_apigee_fault" : {
+            "mp": "apigee.edge.execution.is_apigee_fault",
+            "mp_type": "integer"
+        }
+    }
+    ,
+    {
+        "ax_execution_fault_flow_name" : {
+            "mp": "x-apigee.edge.execution.fault_flow_name",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_execution_fault_flow_state" : {
+            "mp": "x-apigee.edge.execution.fault_flow_state",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_execution_fault_policy_name" : {
+            "mp": "x-apigee.edge.execution.fault_policy_name",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_mp_host" : {
+            "mp": "x-apigee.edge.mp_host",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "ax_session_id" : {
+            "mp": "apigee_sdk_client_sessionid",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "cache_hit" : {
+            "mp": "cache_hit",
+            "mp_type": "integer"
+        }
+    }
+    ,
+    {
+        "client_id" : {
+            "mp": "client_id",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "client_ip" : {
+            "mp": "client_ip",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "client_received_end_timestamp" : {
+            "mp": "client_received_end_timestamp",
+            "mp_type": "timestamp"
+        }
+    }
+    ,
+    {
+        "client_received_start_timestamp" : {
+            "mp": "client_received_start_timestamp",
+            "mp_type": "timestamp"
+        }
+    }
+    ,
+    {
+        "client_sent_end_timestamp" : {
+            "mp": "client_sent_end_timestamp",
+            "mp_type": "timestamp"
+        }
+    }
+    ,
+    {
+        "client_sent_start_timestamp" : {
+            "mp": "client_sent_start_timestamp",
+            "mp_type": "timestamp"
+        }
+    }
+    ,
+    {
+        "developer" : {
+            "mp": "developer",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "developer_app" : {
+            "mp": "developer_app",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "developer_email" : {
+            "mp": "developer_email",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "environment" : {
+            "mp": "environment",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "flow_resource" : {
+            "mp": "flow_resource",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "gateway_flow_id" : {
+            "mp": "gateway_flow_id",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "gateway_source" : {
+            "mp": "gateway_source",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "is_error" : {
+            "mp": "is_error",
+            "mp_type": "integer"
+        }
+    }
+    ,
+    {
+        "organization" : {
+            "mp": "organization",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "policy_error" : {
+            "mp": "x-apigee.edge.is_policy_error",
+            "mp_type": "integer"
+        }
+    }
+    ,
+    {
+        "proxy" : {
+            "mp": "proxy",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "proxy_basepath" : {
+            "mp": "proxy_basepath",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "proxy_client_ip" : {
+            "mp": "proxy_client_ip",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "proxy_pathsuffix" : {
+            "mp": "proxy_pathsuffix",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "request_path" : {
+            "mp": "request_path",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "request_size" : {
+            "mp": "request_size",
+            "mp_type": "bigint"
+        }
+    }
+    ,
+    {
+        "request_uri" : {
+            "mp": "request_uri",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "request_verb" : {
+            "mp": "request_verb",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "response_size" : {
+            "mp": "response_size",
+            "mp_type": "integer"
+        }
+    }
+    ,
+    {
+        "response_status_code" : {
+            "mp": "response_status_code",
+            "mp_type": "integer"
+        }
+    }
+    ,
+    {
+        "sla" : {
+            "mp": "sla",
+            "mp_type": "boolean"
+        }
+    }
+    ,
+    {
+        "target" : {
+            "mp": "target",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "target_basepath" : {
+            "mp": "target_basepath",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "target_error" : {
+            "mp": "x-apigee.edge.is_target_error",
+            "mp_type": "integer"
+        }
+    }
+    ,
+    {
+        "target_host" : {
+            "mp": "target_host",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "target_ip" : {
+            "mp": "target_ip",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "target_received_end_timestamp" : {
+            "mp": "target_received_end_timestamp",
+            "mp_type": "timestamp"
+        }
+    }
+    ,
+    {
+        "target_received_start_timestamp" : {
+            "mp": "target_received_start_timestamp",
+            "mp_type": "timestamp"
+        }
+    }
+    ,
+    {
+        "target_response_code" : {
+            "mp": "target_response_code",
+            "mp_type": "integer"
+        }
+    }
+    ,
+    {
+        "target_sent_end_timestamp" : {
+            "mp": "target_sent_end_timestamp",
+            "mp_type": "timestamp"
+        }
+    }
+    ,
+    {
+        "target_sent_start_timestamp" : {
+            "mp": "target_sent_start_timestamp",
+            "mp_type": "timestamp"
+        }
+    }
+    ,
+    {
+        "target_url" : {
+            "mp": "target_url",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "useragent" : {
+            "mp": "useragent",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "virtual_host" : {
+            "mp": "virtual_host",
+            "mp_type": "text"
+        }
+    }
+    ,
+    {
+        "x_forwarded_for_ip" : {
+            "mp": "x_forwarded_for_ip",
+            "mp_type": "text"
+        }
+    }
+]
